@@ -1,3 +1,23 @@
 div:hover {
     border-style: dashed;    
 }
+
+#caixa-um {
+    background-color: red;
+}
+
+#caixa-dois {
+    background: orange;
+}
+
+#caixa-tres {
+    background-color: darkred;
+}
+
+#caixa-quatro {
+    background-color: darkred;
+}
+
+#caixa-cinco {
+    background-color: lightcoral;
+}
