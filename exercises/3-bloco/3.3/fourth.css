@@ -4,6 +4,7 @@ div:hover {
 
 #caixa-um {
     background-color: red;
+    font-style: italic;
 }
 
 #caixa-dois {
@@ -12,7 +13,8 @@ div:hover {
 
 #caixa-tres {
     background-color: yellow;
-    height: 3em;
+    height: 3em;    
+    font-style: italic;
 }
 
 #caixa-quatro {
@@ -21,6 +23,7 @@ div:hover {
 
 #caixa-cinco {
     background-color: lightcoral;
+    font-style: italic;
 }
 
 h3 {
