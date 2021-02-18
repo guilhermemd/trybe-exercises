@@ -25,4 +25,4 @@ Aqui você encontra todos os exercícios realizados na Trybe.
 
 * Bloco 10: Testes automatizados com Jest
 
-<a href="https://www.linkedin.com/in/guilherme-dornelles-97780b200/ "target="_blank">Linkedin</a>
+<a href="https://www.linkedin.com/in/guilherme-dornelles-97780b200/" target="_blank">Linkedin</a>
