@@ -148,6 +148,43 @@ Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](h
 * <strong> Bloco 23: introdução ao MongoDB </strong>
 - [ ] 23.1 - Introdução - NoSQL
 - [ ] 23.1 - MondoDB - Introdução
-- [ ] 23.2 - 
-- [ ] 23.3 -
+- [ ] 23.2 - Filter Operators
+- [ ] 23.3 - Projeto - Data Flights
 
+* <strong> Bloco 24: MongoDB: Updates Simples e Complexos
+- [ ] 24.1 - Updates Simples
+- [ ] 24.2 - Updates Complexos - Arrays -Parte 1
+- [ ] 24.3 - Updates Complexos - Arrays -Parte 2
+- [ ] 24.4 - Projeto - Commerce
+
+* <strong> Bloco 25: MongoDB: Aggregation Framework </strong>
+- [ ] 25.1 - Aggregation Framework - Parte 1
+- [ ] 25.2 - Aggregation Framework - Parte 2
+- [ ] 25.3 - Projeto - Aggregation 
+
+* <strong> Bloco 26: Introdução ao Desenvolvimento Web com NodeJS </strong>
+- [ ] 26.1 - NodeJS - Introdução
+- [ ] 26.2 - NodeJS - Fluxo Assíncrono
+- [ ] 26.3 - NodeJS - Arquitetura
+- [ ] 26.4 - Express: HTTP com Node.js
+- [ ] 26.5 - Práticando Express
+- [ ] 26.6 - Projeto - Crush Manager
+
+* <strong> Bloco 27: NodeJS: Camada de Serviço e Arquitetura e Restful </strong>
+- [ ] 27.1 - Arquitetura de Software - Camada de Model
+- [ ] 27.2 - Arquitetura de Software - Camada de Controller Service
+- [ ] 27.3 - Arquiterura Web - Rest e Restful
+- [ ] 27.4 - Projeto - Store Manager
+
+* <strong> Bloco 28: Autenticação e Upload de Arquivos </strong>
+- [ ] 28.1 - NodeJS - JWT - (JSON Web Token)
+- [ ] 28.2 - NodeJS - Upload de arquivos com Multer
+- [ ] 28.3 - Projeto - Cookmaster
+
+* <strong> Bloco 29: Deployment </strong>
+- [ ] 29.1 -Infraestrutura - Deploy com Heroku
+- [ ] 29.2 - Deploy - Gerenciadores de Processos
+- [ ] 29.3 - Projeto - Stranger Things
+
+
+ 
