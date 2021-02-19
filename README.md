@@ -13,12 +13,12 @@ Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](h
  - [x] Unix & Bash - Parte 1
  - [x] Unix & Bash - Parte 2
 
-* <strong> Bloco 02: Git, GitHub e Internet</strong>
+* <strong> _[Bloco 02: Git, GitHub e Internet](https://github.com/guilhermemd/trybe-exercises/tree/master/exercises/bloco-2)_ </strong>
  - [x] 2.1 - Git & GitHub - O que é e para que serve
  - [x] 2.2 - Git & GitHub - Entendendo os comandos
  - [x] 2.3 - Internet - Entendendo como ela funciona
 
-* <strong>Bloco 03: Introdução à HTML e CSS </strong> 
+* <strong> _[Bloco 03: Introdução à HTML e CSS](https://github.com/guilhermemd/trybe-exercises/tree/master/exercises/bloco-3)_ </strong> 
 - [x] 3.1 - HTML & CSS - Estrutura de paginas
 - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
 - [x] 3.3 - HTML & CSS - Seletor e posicionamento
