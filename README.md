@@ -104,6 +104,22 @@ Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](h
 - [ ] 15.4 - Projeto - Teste em React
 
 * <strong> Bloco 16: Gerenciamento de estado com Redux </strong>
-- [ ] Introdução ao Redux - O estado global da aplicação
-- [ ] 
-- [ ] 
+- [ ] 16.1 - Introdução ao Redux - O estado global da aplicação
+- [ ] 16.2 - Usando o Redux no React
+- [ ] 16.3 - Usando o Redux no React - Prática
+- [ ] 16.4 - Usando o Redux no React - Actions Assincronas
+- [ ] 16.5 - Testes e, React-Redux
+- [ ] 16.6 - Projeto - Trybe Wallet
+
+* <strong> Bloco 17: Projeto Jogo de Trivia
+- [ ] 17.1 - Projeto - Jogo de Trivia
+
+* <strong> Bloco 18: Context API e React Hooks
+- [ ] 18.1 - Context API do React
+- [ ] 18.2 - React Hooks - useState e useContext
+- [ ] 18.3 - React Hooks - useEffect e Hooks customizados
+- [ ] 18.4 - Projeto - StarWars Datatable com context API e Hooks
+
+* <strong> Bloco 19: Projeto App de receita </strong>
+- [ ] 19.1 - Projeto - App de Receitas
+
