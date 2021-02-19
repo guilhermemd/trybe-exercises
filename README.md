@@ -71,6 +71,10 @@ Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](h
 - [ ] 9.3 - Carrinho de Compras
  
 * <strong>Bloco 10: Testes automatizados com Jest</strong>
+- [ ] 10.1 - Primeiros passos Jest
+- [ ] 10.2 - Jest - Testes Assíncronos
+- [ ] 10.3 - Simulando comortamentos
+- [ ] 10.4 - Projeto - Jest Assíncrono e Mocking
 
  
 
