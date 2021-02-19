@@ -2,7 +2,9 @@
 
 
 # Repositório de exercícios
-Aqui você encontra todos os exercícios realizados na Trybe.
+Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](https://www.linkedin.com/in/guilherme-dornelles-97780b200/)_ como estudante da _[Trybe](https://www.betrybe.com/)_ .
+
+
 
 ## Índice:
 * <strong>Bloco 01: Unix, Bash e Shell Script</strong>:white_check_mark: <br>
@@ -37,4 +39,3 @@ Aqui você encontra todos os exercícios realizados na Trybe.
  
  <br>
  
-<a href="https://www.linkedin.com/in/guilherme-dornelles-97780b200/" target="_blank">Linkedin</a>
