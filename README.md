@@ -5,9 +5,9 @@
 Aqui você encontra todos os exercícios realizados na Trybe.
 
 ## Índice:
-* Bloco 01: Unix, Bash e Shell Script
+* [ :white_check_mark: ]Bloco 01: Unix, Bash e Shell Script
 
-* Bloco 02: Git, GitHub e Internet
+* [ :white_check_mark: ]Bloco 02: Git, GitHub e Internet
 
 * Bloco 03: Introdução à HTML e CSS
 
