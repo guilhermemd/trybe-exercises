@@ -88,7 +88,7 @@ Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](h
 - [ ] 12.2 - Formularios no React
 - [ ] 12.3 - Projeto - Movie Cards Library Stateful
 
-* <strong> Bloco 13: Ciclo de Vida de Componentes e React Router
+* <strong> Bloco 13: Ciclo de Vida de Componentes e React Router </strong>
 - [ ] 13.1 - Ciclo de vida de componentes
 - [ ] 13.2 - React Router
 - [ ] 13.3 - Projeto - Movie Cards Library CRUD
@@ -111,10 +111,10 @@ Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](h
 - [ ] 16.5 - Testes e, React-Redux
 - [ ] 16.6 - Projeto - Trybe Wallet
 
-* <strong> Bloco 17: Projeto Jogo de Trivia
+* <strong> Bloco 17: Projeto Jogo de Trivia </strong>
 - [ ] 17.1 - Projeto - Jogo de Trivia
 
-* <strong> Bloco 18: Context API e React Hooks
+* <strong> Bloco 18: Context API e React Hooks </strong>
 - [ ] 18.1 - Context API do React
 - [ ] 18.2 - React Hooks - useState e useContext
 - [ ] 18.3 - React Hooks - useEffect e Hooks customizados
