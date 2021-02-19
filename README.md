@@ -18,22 +18,22 @@ Aqui você encontra todos os exercícios realizados na Trybe.
  [ ]dia 1 [ ]dia 2 [ ]dia 3 [ ]dia 4 [ ]dia 5
 
 * <strong>Bloco 05: JavaScript: DOM, Eventos e Web Storage</strong> :hourglass_flowing_sand: <br>
- [ ]dia 1 [ ]dia 2 [ ]dia 3 [ ]dia 4 [ ]dia 5
+ [ ]dia 1 [ ]dia 2 [ ]dia 3 [ ]dia 4 [ ]dia 5 [ ]dia 6 [ ]dia 7 [ ]dia 8
  
 * <strong>Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo</strong> :hourglass_flowing_sand: <br>
- [ ]dia 1 [ ]dia 2 [ ]dia 3 [ ]dia 4 [ ]dia 5
+ [ ]dia 1 [ ]dia 2 [ ]dia 3 [ ]dia 4 [ ]dia 5 [ ]dia 6
  
 * <strong>Bloco 07: Introdução à JavaScript ES6 e Testes Unitários</strong> :hourglass_flowing_sand: <br>
- [ ]dia 1 [ ]dia 2 [ ]dia 3 [ ]dia 4 [ ]dia 5
+ [ ]dia 1 [ ]dia 2 [ ]dia 3 [ ]dia 4
  
 * <strong>Bloco 08: Higher Order Functions do JavaScript ES6</strong> :hourglass_flowing_sand: <br>
  [ ]dia 1 [ ]dia 2 [ ]dia 3 [ ]dia 4 [ ]dia 5
  
 * <strong>Bloco 09: JavaScript Assíncrono e Promises</strong> :hourglass_flowing_sand: <br>
- [ ]dia 1 [ ]dia 2 [ ]dia 3 [ ]dia 4 [ ]dia 5
+ [ ]dia 1 [ ]dia 2 [ ]dia 3
  
 * <strong>Bloco 10: Testes automatizados com Jest</strong> :hourglass_flowing_sand: <br>
- [ ]dia 1 [ ]dia 2 [ ]dia 3 [ ]dia 4 [ ]dia 5
+ [ ]dia 1 [ ]dia 2 [ ]dia 3 [ ]dia 4
  
  <br>
  
