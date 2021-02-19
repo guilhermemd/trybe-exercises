@@ -76,6 +76,34 @@ Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](h
 - [ ] 10.3 - Simulando comortamentos
 - [ ] 10.4 - Projeto - Jest Assíncrono e Mocking
 
- 
+### Desenvolvimento Front-end :hourglass_flowing_sand:
 
+* <strong> Bloco 11: Introducão à React</strong>
+- [ ] 11.1 - 'Hello, world!' no React
+- [ ] 11.2 - Componentes React
+- [ ] 11.3 - Projeto - Movie Cards Library
  
+* <strong> Bloco 12 : Componentes com Estado, Eventos e Formularios com React</strong>
+- [ ] 12.1 - Componentes com estado e eventos 
+- [ ] 12.2 - Formularios no React
+- [ ] 12.3 - Projeto - Movie Cards Library Stateful
+
+* <strong> Bloco 13: Ciclo de Vida de Componentes e React Router
+- [ ] 13.1 - Ciclo de vida de componentes
+- [ ] 13.2 - React Router
+- [ ] 13.3 - Projeto - Movie Cards Library CRUD
+
+* <strong> Bloco 14: Metodologias Ágeis </strong>
+- [ ] 14.1 - Metodologias Ágeis
+- [ ] 14.2 - Projeto - Fronted Online Stone
+
+* <strong> Bloco 15: Testes automatizados com React Testing Library </strong>
+- [ ] 15.1 - RTL - Primeiros passos
+- [ ] 15.2 - RTL - Mocks e Inputs
+- [ ] 15.3 - RTL - Testando React Router
+- [ ] 15.4 - Projeto - Teste em React
+
+* <strong> Bloco 16: Gerenciamento de estado com Redux </strong>
+- [ ] Introdução ao Redux - O estado global da aplicação
+- [ ] 
+- [ ] 
