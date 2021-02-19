@@ -13,7 +13,7 @@ Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](h
  - [x] Unix & Bash - Parte 1
  - [x] Unix & Bash - Parte 2
 
-* <strong> Bloco 02: Git, GitHub e Internet</strong>
+* <strong> _[Bloco 02: Git, GitHub e Internet](https://github.com/guilhermemd/trybe-exercises/tree/master/exercises/bloco-2)_ </strong>
  - [x] 2.1 - Git & GitHub - O que é e para que serve
  - [x] 2.2 - Git & GitHub - Entendendo os comandos
  - [x] 2.3 - Internet - Entendendo como ela funciona
