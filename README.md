@@ -5,7 +5,7 @@
 Aqui você encontra todos os exercícios realizados na Trybe.
 
 ## Índice:
-* Bloco 01: Unix, Bash e Shell Script :white_check_mark: <br>
+* <strong>Bloco 01: Unix, Bash e Shell Script :white_check_mark:</strong> <br>
  [x]dia 1  [x]dia 2 [x]dia 3 [x]dia 4
 
 * Bloco 02: Git, GitHub e Internet :white_check_mark: <br>
