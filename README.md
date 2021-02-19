@@ -123,3 +123,31 @@ Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](h
 * <strong> Bloco 19: Projeto App de receita </strong>
 - [ ] 19.1 - Projeto - App de Receitas
 
+### Desenvolvimento Back-end :hourglass_flowing_sand:
+
+* <strong> Bloco 20: Introdução à SQL </strong>
+- [ ] 19.1 - Introducao - Banco de dados relacionais
+- [ ] 19.1 - Banco de dados SQL
+- [ ] 19.2 - Encontrando dados em um banco de dados
+- [ ] 19.3 - Filtrando dados de forma específica
+- [ ] 19.4 - Manipulando tabelas
+- [ ] 19.5 - Projeto - All for One
+
+* <strong> Bloco 21: Funções SQL, joins e Subqueries </strong>
+- [ ] 21.1 - Funções mais usadas no SQL
+- [ ] 21.2 - Descomplicando JOINs, UNIONs e Subqueries
+- [ ] 21.3 - Stored Routines & Stored Functions
+- [ ] 21.4 - Vocabulary Booster
+
+* <strong> Bloco 22: Normalização e Modelagem de Bancos de Dados </strong>
+- [ ] 22.1 - Transformando ideias em um modelo de banco de dados
+- [ ] 22.2 - Normalização, Formas Normais e Dumps
+- [ ] 22.3 - Transformando ideias em um modelo de banco de dados - Parte 2
+- [ ] 22.4 - Projeto - One For All
+
+* <strong> Bloco 23: introdução ao MongoDB </strong>
+- [ ] 23.1 - Introdução - NoSQL
+- [ ] 23.1 - MondoDB - Introdução
+- [ ] 23.2 - 
+- [ ] 23.3 -
+
