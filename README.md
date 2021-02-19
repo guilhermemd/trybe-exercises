@@ -151,7 +151,7 @@ Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](h
 - [ ] 23.2 - Filter Operators
 - [ ] 23.3 - Projeto - Data Flights
 
-* <strong> Bloco 24: MongoDB: Updates Simples e Complexos
+* <strong> Bloco 24: MongoDB: Updates Simples e Complexos</strong>
 - [ ] 24.1 - Updates Simples
 - [ ] 24.2 - Updates Complexos - Arrays -Parte 1
 - [ ] 24.3 - Updates Complexos - Arrays -Parte 2
