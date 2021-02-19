@@ -14,7 +14,7 @@
 * Posicionar elementos na página de diferentes formas;
 * Combinar e agrupar seletores de CSS para criar regras bem definidas.
 
-- [ ] 3.4 - HTML Semântico
+- [x] 3.4 - HTML Semântico
 * Fazer uso de elementos HTML de acordo com o sentido e o propósito que eles carregam. Tais elementos incluem, mas não se limitam a: header , nav , aside , article , section , footer e img ;
 * Criar páginas semanticamente válidas e acessíveis de acordo com o W3CAG ;
 Entender a diferença entre elementos de bloco e elementos inline .
