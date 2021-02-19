@@ -186,5 +186,26 @@ Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](h
 - [ ] 29.2 - Deploy - Gerenciadores de Processos
 - [ ] 29.3 - Projeto - Stranger Things
 
+* <strong> Bloco 30: Projeto Trybeer </strong>
+- [ ] 30.1 - Projeto - Trybeer
+
+* <strong> Bloco 31: Arquitetura: SOLID e ORM </strong>
+- [ ] 31.1 - Arquitetura - Princípios SOLID
+- [ ] 31.2 - ORM - Interface da aplicação com banco de dados
+- [ ] 31.3 - ORM - Associations
+- [ ] 31.4 - Boas práticas na escrita de testes
+- [ ] 31.5 - Projeto - API de Blogs
+
+* <strong> Bloco 32: Sockets </strong>
+- [ ] 32.1 - Arquitetura de Software - Camada de View
+- [ ] 32.2 - Sockets - TCP/UDP & NET
+- [ ] 32.3 - Sockets - Sockets.io
+- [ ] 32.4 - Projeto - Webchat
+
+* <strong> Bloco 33: Projeto Trybeer II </strong>
+- [ ] Projeto - Trybeer v2
+
+
+
 
  
