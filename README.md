@@ -205,7 +205,45 @@ Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](h
 * <strong> Bloco 33: Projeto Trybeer II </strong>
 - [ ] Projeto - Trybeer v2
 
+### Ciencia da Computação :hourglass_flowing_sand:
 
+* <strong> Bloco 34: Arquitetura de Computadores e Redes </strong>
+- [ ] 34.1 - Arquitetura de Computadores
+- [ ] 34.2 - Arquitetura de redes
+- [ ] 34.3 - Redes de computadores, ferramentas e segurança
+- [ ] 34.4 - Projeto - Explorando os protocolos
+
+* <strong> Bloco 35: introdução à Python e Raspagem de Dados da Web </strong>
+- [ ] 35.1 - Aprendendo Python
+- [ ] 35.2 - Entrada e Saída de dados
+- [ ] 35.3 - Raspagem de Dados
+- [ ] 35.4 - Testes
+- [ ] 35.5 - Projeto - Tech news
+
+* <strong> Bloco 36: Programação Orientada a Objetos e Padroes de Projeto </strong>
+- [ ] 36.1 - Introdução á programção orientada a objetos
+- [ ] 36.2 - Programação orientada a objetos na prática
+- [ ] 36.3 - Padrões de projeto
+- [ ] 36.4 - Projeto - Relatórios de Estoque
+
+* <strong> Bloco 37: Algoritmos e Estrutura de Dados </strong>
+- [ ] 37.1 - Estrutura de Dados I - Arrays
+- [ ] 37.2 - Estrutura de Dados I - Complexidade de Algoritmos
+- [ ] 37.3 - Recursividade e Estratégias para solução de problemas
+- [ ] 37.4 - Algoritimos de ordenação e busca
+- [ ] 37.5 - Projeto - Algoritmos
+
+* <strong> Bloco 38: Estrutura de Dados: Hash e Set </strong>
+- [ ] 38.1 - Estrutura de dados II - Hash maps & Dict
+- [ ] 38.2 - Estrutura de dados II - Set
+- [ ] 38.3 - Projeto - Restaurant Orders
+
+* <strong> Bloco 39: Estrutura de dados: Pilhas, Filas e Listas </strong>
+- [ ] 39.1 - Estrutura de dados III - Pilhas
+- [ ] 39.2 - Estrutura de dados III - Deque
+- [ ] 39.3 - Estrutura de Dados III - Nó & Listas ligadas
+- [ ] 39.4 - Estrutura de Dados III - Listas duplamente ligadas
+- [ ] 39.5 - Projeto - TING - Trybe Is Not Google.
 
 
  
