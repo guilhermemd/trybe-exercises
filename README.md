@@ -33,8 +33,16 @@ Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](h
 - [ ] 4.5 Projeto - Playground Functions
 
 * <strong>Bloco 05: JavaScript: DOM, Eventos e Web Storage</strong> 
- [ ]dia 1 [ ]dia 2 [ ]dia 3 [ ]dia 4 [ ]dia 5 [ ]dia 6 [ ]dia 7 [ ]dia 8
- 
+  - [ ] 5.1 JavaScript - DOM e seletores
+  - [ ] 5.2 JavaScript -Trabalhando com elementos
+  - [ ] 5.3 JavaScript - Eventos
+  - [ ] 5.4 JavaScript - Web Storage
+  - [ ] 5.5 Fundamentos - JavaScript - Projetos
+  - [ ] 5.5 Projeto - Arte com Pixels
+  - [ ] 5.6 Projeto - Lista de Tarefas
+  - [ ] 5.7(Bônus) Projetos - Meme Generator
+  - [ ] 5.8(Bônus) Projetos - Adivinha a Cor 
+  - [ ] 5.8(Bônus) Projetos - Carta Misteriosa
 * <strong>Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo</strong>
  [ ]dia 1 [ ]dia 2 [ ]dia 3 [ ]dia 4 [ ]dia 5 [ ]dia 6
  
