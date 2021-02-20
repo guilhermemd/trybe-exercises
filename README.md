@@ -8,7 +8,7 @@ Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](h
 
 ## Índice:
 ### Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
-* <strong>Bloco 01: Unix, Bash e Shell Script</strong>
+* <strong> _[Bloco 01: Unix, Bash e Shell Script](https://github.com/guilhermemd/trybe-exercises/tree/master/exercises/bloco-1)_ </strong>
  - [x] Introdução - Unix & Bash
  - [x] Unix & Bash - Parte 1
  - [x] Unix & Bash - Parte 2
