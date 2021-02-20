@@ -1,4 +1,4 @@
-* <strong> Bloco 02: Git, GitHub e Internet</strong>
+* <strong> Bloco 02: Git, GitHub e Internet</strong> :white_check_mark:
  - [x] 2.1 - Git & GitHub - O que é e para que serve
  
  - [x] 2.2 - Git & GitHub - Entendendo os comandos
