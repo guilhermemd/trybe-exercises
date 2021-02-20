@@ -1,4 +1,4 @@
-* <strong> _[Bloco 01: Unix, Bash e Shell Script](https://github.com/guilhermemd/trybe-exercises/tree/master/exercises/bloco-1)_ </strong>
+* <strong> _[Bloco 01: Unix, Bash e Shell Script](https://github.com/guilhermemd/trybe-exercises/tree/master/exercises/bloco-1)_ </strong> :white_check_mark:
  - [x] Introdução - Unix & Bash
  
  - [x] Unix & Bash - Parte 1
