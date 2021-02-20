@@ -1,0 +1,20 @@
+ 1504  sort bunch_of_things.txt -o bunch_of_things.txt
+ 1505  ..
+ 1506  history | tail -n 50 >> terminal-parte-I.txt
+ 1507  git add .
+ 1508  git commit -m 'exercicio 1.2 parte 1 feito'
+ 1509  git push
+ 1510  ls -l
+ 1511  CD unix_tests
+ 1512  ls -
+ 1513  ls -l
+ 1514  cd unix_tests
+ 1515  ls -l
+ 1516  chmod 777 bunch_of_things.txt
+ 1517  ls -l
+ 1518  chmod 773 bunch_of_things.txt
+ 1519  ls -l
+ 1520  chmod 644 bunch_of_things.txt
+ 1521  ls -l
+ 1522  ..
+ 1523  ls
