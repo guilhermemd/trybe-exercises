@@ -1,4 +1,4 @@
-* <strong>Bloco 03: Introdução à HTML e CSS </strong> 
+* <strong>Bloco 03: Introdução à HTML e CSS </strong> :hourglass_flowing_sand:
 - [x] 3.1 - HTML & CSS - Estrutura de paginas
 * Estruturar páginas web com HTML utilizando as tags html , head e body ;
 * Utilizar o HTML para estruturar textos e títulos;
