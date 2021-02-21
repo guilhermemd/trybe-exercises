@@ -1,0 +1,50 @@
+ 1391  ls
+ 1392  mv trybe_backup.txt
+ 1393  mv trybe_backup.txt /Users/guilhermedornelles/Projetos/trybe-exercises/exercises/bloco-1/1.1/unix_tests/backup2
+ 1394  ls
+ 1395  ..
+ 1396  ls
+ 1397  cd backup
+ 1398  ls
+ 1399  cd backup2
+ 1400  ..
+ 1401  cd backup2
+ 1402  ls
+ 1403  ..
+ 1404  rmdir backup
+ 1405  clear
+ 1406  cat > skills.txt
+ 1407  l
+ 1408  ls
+ 1409  cat skills.txt
+ 1410  head -n 5 skills.txt
+ 1411  tail -n 4 skills.txt
+ 1412  ls
+ 1413  rm *.txt
+ 1414  ls
+ 1415  history | tail -25 >> terminal.txt
+ 1416  ls
+ 1417  cat terminal.txt
+ 1418  rm terminal.txt
+ 1419  history | tail -n 50 >> terminal.txt
+ 1420  cat terminal.txt
+ 1421  git status
+ 1422  git add .
+ 1423  git commit -m 'imprime conandos feito no terminal para exercicio 1.1'
+ 1424  git push
+ 1425  curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"\n
+ 1426  ls
+ 1427  cat countries.txt
+ 1428  less countries.txt
+ 1429  grep Brazil countries.txt
+ 1430  grep -i brazil countries.txt
+ 1431  cat > phrases.txt
+ 1432  grep -v fox phrases.txt
+ 1433  wc -w phrases.txt
+ 1434  wc -l phrases.txt
+ 1435  touch empty.tbt empty.pdf
+ 1436  ls
+ 1437  ls -l
+ 1438  ls -l *.txt
+ 1439  ls -l *t?t
+ 1440  man ls

@@ -1,0 +1,20 @@
+
+ 1487  cd unix_tests
+ 1488  cat > skills2.txt
+ 1489  cat >> skills2.txt
+ 1490  wc -w skills2.txt
+ 1491  sort < skills2.txt | head -n 3 > top_skills.txt 
+ 1492  cat > phrases2.txt
+ 1493  cat top_skills.txt
+ 1494  grep br phrases2.txt | wc -l
+ 1495  cat phrases2.txt
+ 1496  nano phrases2.txt
+ 1497  cat phrases2.txt
+ 1498  grep br phrases2.txt
+ 1499  grep -v br phrases2.txt | wc -l
+ 1500  cat >> phrases2.txt
+ 1501  cat phrases2.txt countries.txt >> bunch_of_things.txt
+ 1502  cat bunch_of_things.txt
+ 1503  clear
+ 1504  sort bunch_of_things.txt -o bunch_of_things.txt
+ 1505  ..
