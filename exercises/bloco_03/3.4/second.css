@@ -4,4 +4,7 @@
 
 .boldArticle {
     font-weight: bold;
+}.imgVision {
+    width: 250px;
+    display: inline-block;
 }
