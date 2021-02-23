@@ -1,3 +1,7 @@
-#italico {
+.italico {
     font-style: italic;
+}
+
+.boldArticle {
+    font-weight: bold;
 }
