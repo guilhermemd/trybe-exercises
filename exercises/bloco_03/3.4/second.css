@@ -1,0 +1,10 @@
+.italico {
+    font-style: italic;
+}
+
+.boldArticle {
+    font-weight: bold;
+}.imgArticle {
+    width: 250px;
+    display: inline-block;
+}
