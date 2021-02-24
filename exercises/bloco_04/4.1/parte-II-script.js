@@ -1,7 +1,7 @@
-const name = "Guilherme Dornelles";
+const nome = 'Guilherme Dornelles';
 const birthCity = "Porto Alegre";
-var birthYear = 2020;
+var birthYear = 1987;
 
-console.log(name);
+console.log(nome);
 console.log(birthCity);
 console.log(birthYear);
