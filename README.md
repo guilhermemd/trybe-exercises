@@ -23,7 +23,7 @@ Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](h
 - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
 - [x] 3.3 - HTML & CSS - Seletor e posicionamento
 - [x] 3.4 - HTML Semântico
-- [ ] 3.5 - Projeto - Lesson Learned
+- [x] 3.5 - Projeto - Lesson Learned
  
 * <strong>Bloco 04: Introdução à JavaScript e Lógica de Programação</strong> 
 - [ ] 4.1 - Java Script - Primeiros passos
