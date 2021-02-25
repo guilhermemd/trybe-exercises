@@ -26,7 +26,7 @@ Aqui você encontra todos os exercícios realizados por _[Guilherme Dornelles](h
 - [x] 3.5 - Projeto - Lesson Learned
  
 * <strong>Bloco 04: Introdução à JavaScript e Lógica de Programação</strong> 
-- [ ] 4.1 - Java Script - Primeiros passos
+- [x] 4.1 - Java Script - Primeiros passos
 - [ ] 4.2 - Java Script - Array e loop For
 - [ ] 4.3 - Java Script - Lógica de Programação e Algoritimos
 - [ ] 4.4 - Java Script - Objetos e funções
