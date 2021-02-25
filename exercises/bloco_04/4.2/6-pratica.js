@@ -9,4 +9,9 @@ for (numebersIndex = 0; numebersIndex < numbers.length; numebersIndex += 1){
   }
 }
 
-console.log(impar);
+if (impar === 0){
+  console.log('nenhum valor ímpar encontrado');
+}
+else {
+  console.log('Temos ' + impar + ' números ímpares!')
+}
