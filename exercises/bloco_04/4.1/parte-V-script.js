@@ -1,6 +1,6 @@
-status = 'Aprovado';
+var n = 'Aprovado';
 
-switch (status) {
+switch (n) {
   case 'Aprovado':
     console.log('Parabéns, você foi aprovado!');
     break;
