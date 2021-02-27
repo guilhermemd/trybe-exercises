@@ -7,9 +7,9 @@ lucro = valorVenda - valorCustoTotal (lucro de um produto) */
 
 var cost = 500;
 var sellingPrice = 750;
-var totalSold = 1000; //preciso arrumar pois tem uma VAR a mais aqui!
 
-if(totalSold > 0){
+if(cost > 0){
+  var totalSold = 1000;
   var taxOut = (sellingPrice * 0.8);
   var costLessSellingPrice = taxOut - cost;
   var profit = (costLessSellingPrice * totalSold);
