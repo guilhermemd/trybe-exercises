@@ -4,8 +4,9 @@ verificaPalindrome("arara") ;
 Retorno esperado: true
 verificaPalindrome("desenvolvimento") ;
 Retorno esperado: false */
-var wordReversed = ''; // tirar dúvida aqui!!!!! preciso por fora essa var? tem como por dentro da função
+ 
 function palindrome(word){ 
+  var wordReversed = '';
   for (let index = word.length - 1; index >= 0; index -= 1) {
     wordReversed = wordReversed + word[index];
     }
