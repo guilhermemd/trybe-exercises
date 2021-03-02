@@ -2,14 +2,14 @@
 Bonus: use somente um if . */
 
 
-var resultado = false;
 
 function par(a, b, c) {
   
-  if (a % 2 ===0 || b % 2 === 0 || c % 2 === 0){
-    resultado = true;
+  if (a % 2 === 0 || b % 2 === 0 || c % 2 === 0){
+    return true;
   }
-  return resultado;
+  else {
+    return false;
   }
-
-  console.log(par(2, 2, 3)); // tem erro
+}
+  console.log(par(2, 2, 3)); 
