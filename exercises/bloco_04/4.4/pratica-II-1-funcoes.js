@@ -4,13 +4,13 @@ verificaPalindrome("arara") ;
 Retorno esperado: true
 verificaPalindrome("desenvolvimento") ;
 Retorno esperado: false */
-
-function palindrome(word){ // não funciona preciso achar erro
+var wordReversed = ''; // tirar dúvida aqui!!!!! preciso por fora essa var? tem como por dentro da função
+function palindrome(word){ 
   for (let index = word.length - 1; index >= 0; index -= 1) {
-    let wordReversed = wordReversed + word[index];
+    wordReversed = wordReversed + word[index];
     }
     for (let index2 = 0; index2 < word.length; index2 += 1) {
-      if (word[index] === wordReversed[index2]){
+      if (word[index2] === wordReversed[index2]){
         return true;
       }
       else {
@@ -18,4 +18,4 @@ function palindrome(word){ // não funciona preciso achar erro
       }
     }
 }
-console.log(palindrome('ovo'));
+console.log(palindrome('arara'));
