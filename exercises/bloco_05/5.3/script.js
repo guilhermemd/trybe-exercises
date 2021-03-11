@@ -16,24 +16,46 @@ createDaysOfTheWeek();
 // Escreva seu código abaixo.
 // Exercício 1: Mês dezembro com seus feriados
 
-const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
+let dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 
 function decemberDays() {
-  for(let index of dezDaysList) {
-    let getPosition = document.getElementById('days');
+  let ulPosition = document.getElementById('days');
+
+  for(let index = 0; index < dezDaysList.length; index += 1) {
     let creatingLi = document.createElement('li');
     let day = dezDaysList[index];
+
     if(day === 24 || day === 31){
-      getPosition.className = 'day holiday';
+      creatingLi.className = 'day holiday';
       creatingLi.innerHTML = day;
-      getPosition.appendChild(createLi);
+      ulPosition.appendChild(creatingLi);
+    } else if (day === 25) {
+      creatingLi.className = 'day holiday friday';
+      crating.innerHTML = day;
+      ulPosition.appendChild(creatingLi);
+    } else if (day === 4 || day === 11 || day === 18) {
+      creatingLi.className = 'day friday';
+      creatingLi.innerHTML = day;
+      ulPosition.appendChild(creatingLi);
+    } else {
+      creatingLi.className = 'day';
+      creatingLi.innerHTML = day;
+      ulPosition.appendChild(creatingLi);
     }
-  }
-}
+  };
+};
+
+decemberDays();
 
 // Exercício 2: Implemente uma função que receba como parâmetro a string "Feriados" e crie dinamicamente um botão com o nome "Feriados".
-function btnHoliday {
+/*function btnHoliday(buttonName) {
   let getLocalBtn = document.querySelector('.buttons-container');
-  let crearBtnHoliday = document.createElement('button');
-  
+  let creatBtnHoliday = document.createElement('button');
+  let IdOnButton = 'btn-holiday';
+
+  creatBtnHoliday.innerHTML = buttonName;
+  creatBtnHoliday.id = IdOnButton;
+  getLocalBtn.appendChild(creatBtnHoliday);
 }
+
+btnHoliday('Feriados') */
