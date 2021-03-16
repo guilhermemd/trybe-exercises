@@ -8,54 +8,56 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Aprendendo a usar o FORMS</h1>
-  <p>Cadastre o seu currículo aqui:</p>
+  <header class="form-header">
+    <h1>Aprendendo a usar o FORMS</h1>
+    <p>Cadastre o seu currículo aqui:</p>
+  </header>
   <form action="" method="get">
     <fieldset>
-      <div>
+      <div class="line-content">
         <label for="name">Nome: </label>
         <input type="text" name="nome" id="name" maxlength="40" required>
       </div>
-      <div>
+      <div class="line-content">
         <label for="email">E-mail: </label>
         <input type="text" name="email" id="email" maxlength="50" required>
       </div>
-      <div>
+      <div class="line-content">
         <label for="cpf">CPF: </label>
         <input type="text" name="cpf" id="cpf" maxlength="11" required>
       </div>
-      <div>
+      <div class="line-content">
         <label for="address">Endereço: </label>
         <input type="text" name="endereco" id="address" maxlength="200" required>
       </div>
-      <div>
+      <div class="line-content">
         <label for="city">Cidade: </label>
         <input type="text" name="cidade" id="city" maxlength="28" required>
       </div> 
-      <div>
+      <div class="line-content">
         <label for="state">Estado: </label> 
         <select id="state" name="estado" value="" required>
       </div>
-      <div>
+      <div class="line-content">
         <label for="house-flat"> Tipo do imóvel: </label>
         <input type="radio" name="house-flat" id="house" value="house" required>Casa</input>
         <input type="radio" name="house-flat" id="flat" value="flat" required>Apartamento</input>
       </div>
     </fieldset> 
     <fieldset>
-      <div>
+      <div class="line-content">
         <label for="cv-area">Resuma o seu currículo aqui: </label>
         <textarea name="cv" id="cv" maxlength="500" cols="80" rows="20" required></textarea>
       </div>
-      <div>
+      <div class="line-content">
         <label for="position">Atual Posição: </label>
         <input type="text" name="position" id="position" maxlength="40" required>
       </div>
-      <div>
+      <div class="line-content">
         <label for="description">Descreva atual posição: </label>
         <input type="text" name="description" id="description" maxlength="500" required>
       </div> 
-      <div>
+      <div class="line-content">
         <label for="start-date">Data de início: </label>
         <input type="text" name="start-date" id="start-date" value="" required>
       </div>
