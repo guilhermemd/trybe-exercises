@@ -27,3 +27,20 @@ figure {
 figcaption {
     font-size: .8em;
 }
+
+@media screen and (min-width: 900px) {
+    body {
+        background-color: orange;
+        font-size: xx-large;
+        }
+
+        h1, h2 {
+            font-size: large;
+            font-style: italic;
+        }
+        
+        figure {
+            background-color: yellow;
+        }
+        
+        
