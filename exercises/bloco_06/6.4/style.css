@@ -40,6 +40,7 @@ body {
   font-size: 1.3rem;
   list-style: none;
   margin-right: 10px;
+  align-self: center;
 }
 
 .main-container {
@@ -74,9 +75,9 @@ body {
 }
 
 .aside-container {
+  align-self: center;
   display: flex;
   flex-direction: column;
-  margin: 20px;
 }
 
 .aside-container h3, h4 {
