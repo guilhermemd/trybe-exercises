@@ -24,7 +24,6 @@ body {
 .menu-container {
   display: flex;
   flex-basis: 500px;
-  flex-grow: 1;
   order: 2;
 }
 
@@ -48,15 +47,21 @@ body {
   flex-wrap: wrap;
 }
 
+.movie-container div {
+  flex: 0 1 16%;
+}
+
 .movie-container {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  flex-basis: 700px;
+  flex-grow: 10;
 }
 
 .movie-container h2 {
   margin: 40px 0;
   text-align: center;
+  flex-basis: 16%;
 }
 
 .card-container {
@@ -81,7 +86,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-grow: 1;
 }
 
 .aside-container h3, h4 {
