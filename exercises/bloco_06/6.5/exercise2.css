@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: flex;
+}
+
+p {
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  p {
+    padding: 0 5px;
+    line-height: 1.5em;
+    border: 3px black solid;
+    margin: 5px;
+  }
+/* testar */
+  @media screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  
+    .container {
+      flex-wrap: wrap;
+    }
+  }
+  
+  
