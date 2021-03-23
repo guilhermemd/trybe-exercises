@@ -25,4 +25,5 @@ const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
 console.log(`Os números ${(bubbleSort(oddsAndEvens))} se encontram ordenados de forma crescente !`);
 
+//Fonte: https://medium.com/javascript-algorithms/javascript-algorithms-bubble-sort-3d27f285c3b2
 
