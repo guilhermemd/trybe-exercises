@@ -35,8 +35,14 @@ const order = {
 };
 
 const customerInfo = (order) => {
-  const customerName = order.order.delivery.deliveryPerson;
-  console.log (customerName);
+  const deliveryGuy = order.order.delivery.deliveryPerson;
+  const custumerName = order.name;
+  const mobile = order.phoneNumber;
+  const address = order.address.street;
+  const houseNumber = order.address.number;
+  const apartmentNumber = order.address.apartment;
+
+  console.log(`Olá, ${deliveryGuy}. Entrega para: ${custumerName}, Telefone: ${mobile}, ${address}, Nº ${houseNumber}, Ap: ${apartmentNumber}. `)
 }
 
 customerInfo(order);
