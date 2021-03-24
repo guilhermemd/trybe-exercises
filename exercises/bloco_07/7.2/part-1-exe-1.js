@@ -35,15 +35,15 @@ const order = {
 };
 
 const customerInfo = (order) => {
-  // Adicione abaixo as informações necessárias.
-
+  const customerName = order.order.delivery.deliveryPerson;
+  console.log (customerName);
 }
 
 customerInfo(order);
 
-const orderModifier = (order) => {
-  // Adicione abaixo as informações necessárias.
+// const orderModifier = (order) => {
+//   // Adicione abaixo as informações necessárias.
 
-}
+// }
 
-orderModifier(order);
+// orderModifier(order);
