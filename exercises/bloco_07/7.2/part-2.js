@@ -32,7 +32,9 @@ const lesson3 = {
 // console.log(listKeys(lesson3));
 
 //Exercício - 3: Crie uma função para mostrar o tamanho de um objeto.
+// const objLength = (obj) =>  Object.keys(obj).length;
+// console.log(objLength(lesson3));
 
-
-const objLength = (obj) =>  Object.keys(obj).length;
-console.log(objLength(lesson3));
+//Exercício - 4:
+const objValue = (obj) =>  Object.values(obj);
+console.log(objValue(lesson2));
