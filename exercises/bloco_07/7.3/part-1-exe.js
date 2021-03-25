@@ -14,5 +14,9 @@ function sum(a, b) {
 // 2 - exercício: Teste se o retorno de sum(4, 5) é 9
 // assert.strictEqual(sum(4,5), 9, 'O resultado deve ser 9');
 
-// 3 = exercício: Teste se o retorno de sum(0, 0) é 0
-assert.strictEqual(sum(0,0), 0, 'O resultado deve ser 0');
+// 3 - exercício: Teste se o retorno de sum(0, 0) é 0
+// assert.strictEqual(sum(0,0), 0, 'O resultado deve ser 0');
+
+// 4 - exercício: Teste se a função sum lança um erro quando os parâmetros são 4 e "5" (string 5)
+assert.throw(sum(4, '5'), 'Deveria lançar um Error');
+
