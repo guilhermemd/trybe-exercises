@@ -12,4 +12,7 @@ function sum(a, b) {
 // 1 - exercício: A função sum(a, b) retorna a soma do parâmetro a com o b
 // assert.strictEqual(typeof(sum), 'function', 'Devo esperar uma função');
 // 2 - exercício: Teste se o retorno de sum(4, 5) é 9
-assert.strictEqual(sum(4,5), 9, 'O resultado deve ser 9');
+// assert.strictEqual(sum(4,5), 9, 'O resultado deve ser 9');
+
+// 3 = exercício: Teste se o retorno de sum(0, 0) é 0
+assert.strictEqual(sum(0,0), 0, 'O resultado deve ser 0');
