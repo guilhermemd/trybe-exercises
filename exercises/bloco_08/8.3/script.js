@@ -253,4 +253,18 @@ function authorWith3DotsOnName() {
   return authorBookName[0].name;
 }
 
+//Respostas de Murilo Gonçalves
+// function authorWith3DotsOnName() {
+//   return books
+//     .find(book => /[a-z|A-Z]\. [a-z|A-Z]\. [a-z|A-Z]\./.test(book.author.name))
+//     .name
+// }
+
+// function authorWith3DotsOnName() {
+//   return books
+//     .find(book => /(\D\. ){3}/.test(book.author.name))
+//     .name
+// }
+// https://regexr.com/
+
 assert.deepStrictEqual(authorWith3DotsOnName(), expectedResult);
