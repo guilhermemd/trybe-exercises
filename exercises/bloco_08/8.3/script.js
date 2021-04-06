@@ -63,19 +63,33 @@ const books = [
   },
 ];
 
-const expectedResult = [
-  'As Crônicas de Gelo e Fogo - Fantasia - George R. R. Martin',
-  'O Senhor dos Anéis - Fantasia - J. R. R. Tolkien',
-  'Fundação - Ficção Científica - Isaac Asimov',
-  'Duna - Ficção Científica - Frank Herbert',
-  'A Coisa - Terror - Stephen King',
-  'O Chamado de Cthulhu - Terror - H. P. Lovecraft',
-];
+// const expectedResult = [
+//   'As Crônicas de Gelo e Fogo - Fantasia - George R. R. Martin',
+//   'O Senhor dos Anéis - Fantasia - J. R. R. Tolkien',
+//   'Fundação - Ficção Científica - Isaac Asimov',
+//   'Duna - Ficção Científica - Frank Herbert',
+//   'A Coisa - Terror - Stephen King',
+//   'O Chamado de Cthulhu - Terror - H. P. Lovecraft',
+// ];
 // 1 - Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
 // Dica: Use a função map 
-function formatedBookNames() {
-  return books.map((item) => `${item.name} - ${item.author.name}`)
+// function formatedBookNames() {
+//   return books.map((item) => `${item.name} - ${item.author.name}`)
+// };
+// console.log(formatedBookNames()),
+
+// 2 - Construa um array de objetos a partir do array de livros. Cada objeto deve conter uma propriedade author , com o nome da pessoa autora do livro, e uma propriedade age com a idade dessa pessoa quando o livro foi lançado. O array deve ser ordenado por idade, ou seja, da pessoa mais jovem para a mais velha considerando suas idades quando o livro foi lançado.
+
+function nameAndAge() {
+  return books
+  .map((item) => (
+    {
+    author: item.author.name,
+    age: item.releaseYear - item.author.birthYear,
+  })).sort((a, b) => (a.age - b.age));
 };
-console.log(formatedBookNames()),
+
+
+console.log(nameAndAge());
 
 assert.deepStrictEqual(formatedBookNames(), expectedResult);
