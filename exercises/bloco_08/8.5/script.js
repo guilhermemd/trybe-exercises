@@ -1,6 +1,5 @@
 // // 1 - Dado o código abaixo, complete-o de forma que seja impressa a área dos 3 retângulos. O código deve retornar em sequência 2 , 15 e 54 .
 // const assert = require('assert');
-// // original - const rectangleArea = (width, height) => width * height;
 // const rectangleArea = (width, height) => width * height;
 
 // const rectangle1 = [1, 2];
@@ -14,12 +13,34 @@
 
 // 2 - Crie uma função sum que dado um número variável de elementos retorna a soma desses elementos. Ou seja:
 
+// const assert = require('assert');
+
+// const sum = (...spread) => spread.reduce((acc, item) => acc + item, 0);
+
+// assert.strictEqual(sum(), 0);
+// assert.strictEqual(sum(1), 1);
+// assert.strictEqual(sum(1, 2), 3);
+// assert.strictEqual(sum(1, 2, 3), 6);
+// assert.strictEqual(sum(1, 2, 3, 4), 10);
+
+// 3 - Escreva a função personLikes , que dado um objeto de parâmetro que representa uma pessoa, retorna todos os gostos daquela pessoa, conforme mostrado abaixo:
+
 const assert = require('assert');
 
-const sum = (...spread) => spread.reduce((acc, item) => acc + item, 0);
+const alex = {
+  name: 'Alex',
+  age: 26,
+  likes: ['fly fishing'],
+  nationality: 'Australian',
+};
 
-assert.strictEqual(sum(), 0);
-assert.strictEqual(sum(1), 1);
-assert.strictEqual(sum(1, 2), 3);
-assert.strictEqual(sum(1, 2, 3), 6);
-assert.strictEqual(sum(1, 2, 3, 4), 10);
+const gunnar = {
+  name: 'Gunnar',
+  age: 30,
+  likes: ['hiking', 'scuba diving', 'taking pictures'],
+  nationality: 'Icelandic',
+};
+const personLikes = ({ name, age, likes}) => `${name} is ${age} years old and likes ${likes.join(', ')}.`;
+
+assert.strictEqual(personLikes(alex), 'Alex is 26 years old and likes fly fishing.');
+assert.strictEqual(personLikes(gunnar), 'Gunnar is 30 years old and likes hiking, scuba diving, taking pictures.');
