@@ -47,41 +47,55 @@
 
 // 4 - Escreva uma função filterPeople que, dada uma lista de pessoas, retorna todas as pessoas australianas que nasceram no século 20:
 
+// const assert = require('assert');
+
+// const people = [
+//   {
+//     name: 'Nicole',
+//     bornIn: 1992,
+//     nationality: 'Australian',
+//   },
+//   {
+//     name: 'Harry',
+//     bornIn: 2008,
+//     nationality: 'Australian',
+//   },
+//   {
+//     name: 'Toby',
+//     bornIn: 1901,
+//     nationality: 'Australian',
+//   },
+//   {
+//     name: 'Frida',
+//     bornIn: 1960,
+//     nationality: 'Dannish',
+//   },
+//   {
+//     name: 'Fernando',
+//     bornIn: 2001,
+//     nationality: 'Brazilian',
+//   },
+// ];
+
+// const filterPeople = (item) => item.filter(({ born, nationality }) => 
+//   born > 1901 && nationality === 'Australian'
+// )
+
+// const filteredPeople = filterPeople(people);
+
+// assert.deepStrictEqual(filteredPeople[0], { name: 'Nicole', bornIn: 1992, nationality: 'Australian' });
+// assert.deepStrictEqual(filteredPeople[1], { name: 'Toby', bornIn: 1901, nationality: 'Australian' });
+
+// 5 - Escreva a função swap , que dado um array de 3 elementos, retorna um novo array com o primeiro e terceiro elementos trocados. Detalhe: você precisa fazer essa função gastando 1 linha só:
+
 const assert = require('assert');
 
-const people = [
-  {
-    name: 'Nicole',
-    bornIn: 1992,
-    nationality: 'Australian',
-  },
-  {
-    name: 'Harry',
-    bornIn: 2008,
-    nationality: 'Australian',
-  },
-  {
-    name: 'Toby',
-    bornIn: 1901,
-    nationality: 'Australian',
-  },
-  {
-    name: 'Frida',
-    bornIn: 1960,
-    nationality: 'Dannish',
-  },
-  {
-    name: 'Fernando',
-    bornIn: 2001,
-    nationality: 'Brazilian',
-  },
-];
+const myList = [1, 2, 3];
 
-const filterPeople = (item) => item.filter(({ born, nationality }) => 
-  born > 1901 && nationality === 'Australian'
-)
+const swap = ([a, b, c]) => [c, b, a];
 
-const filteredPeople = filterPeople(people);
+const swappedList = swap(myList);
 
-assert.deepStrictEqual(filteredPeople[0], { name: 'Nicole', bornIn: 1992, nationality: 'Australian' });
-assert.deepStrictEqual(filteredPeople[1], { name: 'Toby', bornIn: 1901, nationality: 'Australian' });
+assert.strictEqual(swappedList[0], 3);
+assert.strictEqual(swappedList[1], 2);
+assert.strictEqual(swappedList[2], 1);
