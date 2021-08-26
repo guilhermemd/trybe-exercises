@@ -4,7 +4,8 @@
   "description": "",
   "main": "exercicio1.js",
   "scripts": {
-    "exercicio1": "node exercicio1.js"
+    "exercise1": "node exercise1.js",
+    "exercise2": "node exercise2.js"
   },
   "author": "",
   "license": "ISC"

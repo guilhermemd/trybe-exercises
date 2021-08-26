@@ -12,12 +12,12 @@ const reciveNumberOnly = (a, b, c ) => {
   return promise
 }
 
-reciveNumberOnly(2,6,1)
-  .then((data) => {
-    console.log(data)
-})
-  .catch((err) => {
-  console.error(err.message);
-});
+// reciveNumberOnly(2,6,1)
+//   .then((data) => {
+//     console.log(data)
+// })
+//   .catch((err) => {
+//   console.error(err.message);
+// });
 
 module.exports = reciveNumberOnly
