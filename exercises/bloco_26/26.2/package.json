@@ -5,7 +5,8 @@
   "main": "exercicio1.js",
   "scripts": {
     "exercise1": "node exercise1.js",
-    "exercise2": "node exercise2.js"
+    "exercise2": "node exercise2.js",
+    "exercise3": "node exercise3.js"
   },
   "author": "",
   "license": "ISC"
