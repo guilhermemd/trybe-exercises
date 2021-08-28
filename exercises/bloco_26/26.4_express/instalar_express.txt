@@ -1,0 +1,17 @@
+Construíndo uma API com Express
+		[ ] criar repositório: mkdir novo-repositório
+		[ ] entrar no repositório: cd novo-repositório
+		[ ] npm init -y
+		[ ] npm install eslint —save-dev
+		[ ] criar .gitignore e adicionar a node_modules
+		[ ] npm i express
+		[ ] npm i nodemon -D
+		[ ] adicionar o script "dev": "nodemon index.js": npm run dev
+		[ ] npm I body-parser
+		[ ] npm i express-rescue
+		
+Significado dos comandos
+	get = cria um url
+	post = adiciona informação em um arquivo (trabalha com body)
+	put = Edita Informações em um arquivo (trabalha com body)
+	delete = deleta (trabalha com body)
