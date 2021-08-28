@@ -74,7 +74,7 @@ app.post(
   rescue(async (req, res) => {
     const { id, name } = req.body;
 
-    const simpsons = await simpsonsUtils.getSimpsons();
+    const simpsons = await sgetSimpsons();
 
     if (simpsons.map(({ id }) => id).includes(id)) {
       return res.status(409).json({ message: 'id already exists' });
@@ -82,7 +82,7 @@ app.post(
 
     simpsons.push({ id, name });
 
-    await simpsonsUtils.setSimpsons(simpsons);
+    await setSimpsons(simpsons);
 
     res.status(204).end();
   })
