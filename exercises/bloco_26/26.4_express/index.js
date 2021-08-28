@@ -1,36 +1,19 @@
-// 1 - Inicie os exercícios criando uma aplicação Node.js com os comandos já aprendidos.
-// Crie uma rota GET /ping
-// Sua rota deve retornar o seguinte JSON: { message: 'pong' }
-
-// 2 - Crie uma rota POST /hello
-// Sua rota deve receber, no body da requisição, o seguinte JSON: { "name": "<nome do usuário>" }
-// Sua rota deve retornar o seguinte JSON: { "message": "Hello, <nome do usuário>!" } .
-
-// 3 - Crie uma rota POST /greetings
-// Sua rota deve receber o seguinte JSON: { "name": "<nome do usuário>", "age": <idade do usuário> } .
-// Caso a pessoa usuária tenha idade superior a 17 anos, devolva o JSON { "message": "Hello, <nome do usuário>!" } com o status code 200 - OK .
-// Caso a pessoa usuária tenha 17 anos ou menos, devolva o JSON { "message": "Unauthorized" } com o status code 401 - Unauthorized .
-
-// 4 - Crie uma rota PUT /users/:name/:age .
-// Sua rota deve retornar o seguinte JSON: { "message": "Seu nome é <name> e você tem <age> anos de idade" } .
-
 // const express = require('express');
 // const app = express();
+
+// const rescue = require('express-rescue')
+const { getSimpsons, setSimpsons  } = require('./fs-part');
 
 const app = require('express')(); //Dica do Rafa
 
 const bodyParser = require('body-parser');
-
+const rescue = require('express-rescue');
 app.use(bodyParser.json());
 
-//exercicio 1
+// exercicio 1
 app.get('/ping', (_req, res) => 
   res.status(200).json( { message: 'pong' } ) 
 ) ;
-
-app.listen(3001, () => {
-  console.log('Aplicação ouvindo na porta 3001');
-});
 
 // exercicio 2
 app.post('/hello', function (req, res) {
@@ -51,3 +34,40 @@ app.put('/users/:name/:age', (req, res) => {
   const { name, age } = req.params;
   res.status(200).json( { message: `Seu nome é ${name} e você tem ${age} anos de idade` })
 })
+
+// exercicio 7
+app.get(
+  '/simpsons/:id',
+  rescue(async (req, res) => {
+    const simpsons = await getSimpsons();
+
+    const simpson = simpsons.find(({ id }) => id === req.params.id);
+
+    if (!simpson) {
+      return res.status(404).json({ message: 'simpson not found' });
+    }
+
+    return res.status(202).json(simpson);
+  })
+);
+
+// Exercicio 6
+app.get('/simpsons', rescue(async (req, res) => {
+  const simpsons = await getSimpsons();
+
+  res.status(200).json(simpsons);
+}))
+
+// Exercicio 7
+// app.get('/simpsons/:id', (req, res) => {
+//   const { id } = req.params;
+//   const simpsonsFunc = readSimpsons();
+//   const existSimpson = simpsonsFunc.find((s) => s.id === parseInt(id));
+//   existSimpson 
+//   ? res.status(200).json(existSimpson) 
+//   : res.status(404).json({  message: 'simpson not found'})
+// });
+
+app.listen(3001, () => {
+  console.log('Aplicação ouvindo na porta 3001');
+});
