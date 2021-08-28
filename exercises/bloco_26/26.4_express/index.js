@@ -68,6 +68,26 @@ app.get('/simpsons', rescue(async (req, res) => {
 //   : res.status(404).json({  message: 'simpson not found'})
 // });
 
+// exercicio 8 
+app.post(
+  '/simpsons',
+  rescue(async (req, res) => {
+    const { id, name } = req.body;
+
+    const simpsons = await simpsonsUtils.getSimpsons();
+
+    if (simpsons.map(({ id }) => id).includes(id)) {
+      return res.status(409).json({ message: 'id already exists' });
+    }
+
+    simpsons.push({ id, name });
+
+    await simpsonsUtils.setSimpsons(simpsons);
+
+    res.status(204).end();
+  })
+);
+
 app.listen(3001, () => {
   console.log('Aplicação ouvindo na porta 3001');
 });
