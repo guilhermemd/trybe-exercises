@@ -1,11 +1,5 @@
-const validateUsername = require('../services');
-const validateEmail = require('../services');
-const validatePassoword = require('../services');
+const { registerUser } = require('./registerUser');
 
 module.exports = {
-  validateUsername,
-  validateEmail,
-  validatePassoword,
+  registerUser
 };
-
-
