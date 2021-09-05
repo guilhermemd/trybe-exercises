@@ -1,4 +1,4 @@
-const { registerUser } = require('./registerUser');
+const registerUser = require('./registerUser');
 
 module.exports = {
   registerUser

@@ -3,9 +3,10 @@ const validateEmail = (email) => {
   // const { email } = request.body;
   // const emailtoString = regex.test(String(email).toLowerCase());
   // !regex.test(email))
-  (!email || email.length === 0 || regex.test(email) === false)
-  ? { status: 400, message: "Incorrect e-mail" }
-  : 'OK';
+  if(!email || email.length === 0 || regex.test(email) === false) {
+    return { status: 400, message: "Incorrect e-mail" }
+  }
+  return 'OK';
 };
 
 module.exports = validateEmail;
